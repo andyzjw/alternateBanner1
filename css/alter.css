@@ -1,0 +1,47 @@
+*{margin: 0;padding:0;}
+body{
+    min-width: 1200px;
+    font-family: "Microsoft YaHei";
+}
+
+.menu{
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+
+}
+.menu-bar{
+    width: 1200px;
+    text-align: center;
+    overflow: hidden;
+}
+.menu .menu-bar div{
+    float: left;
+    width: 25%;
+    font-size:22px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.hover{
+    cursor: pointer;
+    background: #FFCC00;
+}
+.menu-img .slide{
+    width: 1200px;
+    height: 460px;
+    display: none;
+}
+.slide1{
+    background: url("../img/1.jpg") no-repeat ;
+}
+.slide2{
+    background: url("../img/3.jpg") no-repeat ;
+}
+.slide3{
+    background: url("../img/4.jpg") no-repeat ;
+}
+.slide4{
+    background: url("../img/5.jpg") no-repeat ;
+}
